@@ -48,6 +48,7 @@ namespace number_guessing_game
                         min = 0;
                         max = 100;
                         attempts = 0;
+                        guess = GetGuess(min, max);
                         break;
                     }
                     else
@@ -58,6 +59,7 @@ namespace number_guessing_game
 
                 System.Console.WriteLine($"That was fun {name}, do you want to play again?");
                 wantToPlay = System.Console.ReadLine();
+                System.Console.WriteLine("Good Bye");
 
             }
 
