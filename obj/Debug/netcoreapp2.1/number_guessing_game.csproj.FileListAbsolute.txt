@@ -1,0 +1,11 @@
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/bin/Debug/netcoreapp2.1/number_guessing_game.deps.json
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/bin/Debug/netcoreapp2.1/number_guessing_game.runtimeconfig.json
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/bin/Debug/netcoreapp2.1/number_guessing_game.runtimeconfig.dev.json
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/bin/Debug/netcoreapp2.1/number_guessing_game.dll
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/bin/Debug/netcoreapp2.1/number_guessing_game.pdb
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/obj/Debug/netcoreapp2.1/number_guessing_game.csprojAssemblyReference.cache
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/obj/Debug/netcoreapp2.1/number_guessing_game.csproj.CoreCompileInputs.cache
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/obj/Debug/netcoreapp2.1/number_guessing_game.AssemblyInfoInputs.cache
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/obj/Debug/netcoreapp2.1/number_guessing_game.AssemblyInfo.cs
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/obj/Debug/netcoreapp2.1/number_guessing_game.dll
+/Users/michaelsolone/sdg/dot_net/week-8/number_guessing_game/obj/Debug/netcoreapp2.1/number_guessing_game.pdb
