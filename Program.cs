@@ -53,7 +53,7 @@ namespace number_guessing_game
                     }
                     else
                     {
-                        System.Console.WriteLine("Please follow directions!");
+                        System.Console.WriteLine($"{name}, you must read the directions!");
                     }
                 }
 
