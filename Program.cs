@@ -18,10 +18,10 @@ namespace number_guessing_game
 
             System.Console.WriteLine("Hi what's your name!?");
             var name = System.Console.ReadLine();
-            System.Console.WriteLine($"Want to play a game {name}?");
+            System.Console.WriteLine($"Want to play a game {name}? yes or no?");
             var wantToPlay = System.Console.ReadLine();
 
-            while (wantToPlay == "yes")
+            while (wantToPlay.ToLower() == "yes")
             {
                 System.Console.WriteLine("Please pick a number between 1 and 100");
                 var number = System.Console.ReadLine();
@@ -29,19 +29,19 @@ namespace number_guessing_game
                 {
                     System.Console.WriteLine($"Is your number is {guess}? If so type 'yes', if its higher type 'higher', if its lower type 'lower'");
                     var response = System.Console.ReadLine();
-                    if (response == "lower")
+                    if (response.ToLower() == "lower")
                     {
                         max = guess - 1;
                         attempts++;
                         guess = GetGuess(min, max);
                     }
-                    else if (response == "higher")
+                    else if (response.ToLower() == "higher")
                     {
                         min = guess + 1;
                         attempts++;
                         guess = GetGuess(min, max);
                     }
-                    else if (response == "yes")
+                    else if (response.ToLower() == "yes")
                     {
                         attempts++;
                         System.Console.WriteLine($"All right it only took me {attempts} attempts");
@@ -59,7 +59,6 @@ namespace number_guessing_game
 
                 System.Console.WriteLine($"That was fun {name}, do you want to play again?");
                 wantToPlay = System.Console.ReadLine();
-                System.Console.WriteLine("Good Bye");
 
             }
 
